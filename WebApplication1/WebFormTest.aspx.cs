@@ -12,6 +12,8 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             string aa;
+
+            Page.RegisterClientScriptBlock("test", "<script>alert('테스트알림');</script>");
         }
     }
 }
